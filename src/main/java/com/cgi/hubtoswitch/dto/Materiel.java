@@ -12,8 +12,8 @@ public class Materiel {
 		
 	}
 	
-	public Materiel(String libelle, String numserie) {
-		
+	public Materiel(int id, String libelle, String numserie) {
+		this.id = id;
 	    this.libelle = libelle;
 	    this.numserie = numserie;
 	    
