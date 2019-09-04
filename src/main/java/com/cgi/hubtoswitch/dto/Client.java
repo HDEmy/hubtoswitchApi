@@ -14,9 +14,11 @@ public class Client {
 		
 	}
 	
-	public Client(int id,String nom) {
+	public Client(int id,String nom, String adresse1, String adresse2) {
 		this.id = id;
-		this.nom = nom;    
+		this.nom = nom;
+		this.adresse1 = adresse1;
+		this.adresse2 = adresse2;
 	}
 	
 	public int getId() {
